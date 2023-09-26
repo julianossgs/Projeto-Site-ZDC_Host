@@ -75,6 +75,49 @@
 }
 /*fim seção mini banner*/
 
+/*Seção planos*/
+.specialties-container{
+    width: 100%;
+    height: auto;
+    padding: 5px;
+  
+}
+
+.specialites-items{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    padding: 10px;
+}
+
+.plans-items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.plans-items h3{
+    color: #2C3E50;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.plans-items li{
+    text-align: center;
+    list-style: none;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+#planos i{
+    font-size: 1.5rem;
+    color: #2C3E50;
+}
+/*Fim seção planos*/
+
+
 
 /* Media query */
 /* Small devices (landscape phones, 576px and up)*/
@@ -124,6 +167,35 @@
         font-size: 1.2rem;
     }
     /*Fim seção mini banner*/
+
+    /*Seção planos*/
+.specialites-items{
+    padding: 5px;
+}
+
+.plans-items{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   position: relative;
+   margin: 15px;
+}
+
+.plans-items h3{
+   font-size: 1.3rem;
+   margin: 8px 0;
+}
+
+.plans-items li{
+    padding: 10px;
+}
+
+#planos i{
+    font-size: 2.3rem;
+   
+}
+
+/* Fim seção planos*/
 
 }
 
