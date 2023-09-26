@@ -46,6 +46,34 @@
  .navbar-items li{
     margin: 8px;
 }
+/* fim seção navbar*/
+
+/*Seção mini banner*/
+/* Main banner */
+.main-banner{
+    background-image: url('../Img/mainbanner.png');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    padding: 5em 0;
+}
+
+.main-banner h1,
+.main-banner p{
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+}
+
+.main-banner h1{
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+.main-banner p{
+    font-size: 1.1rem;
+}
+/*fim seção mini banner*/
 
 
 /* Media query */
@@ -80,6 +108,22 @@
         background-color: #2cc76a;
         border-radius: 5px;
     }
+    /*fim seção navbar*/
+
+    /*Seção mini banner*/
+    .main-banner{
+        padding: 9em 0;
+    }
+
+    .main-banner h1{
+        font-size: 1.6rem;
+        margin-bottom: 5px;
+    }
+    
+    .main-banner p{
+        font-size: 1.2rem;
+    }
+    /*Fim seção mini banner*/
 
 }
 
