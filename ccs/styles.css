@@ -117,6 +117,109 @@
 }
 /*Fim seção planos*/
 
+/*Seção preços e planos*/
+.pricing-container{
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    position: absolute;
+}
+
+.pricing-container h1{
+    color: #2C3E50;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.pricing-container p{
+    color: #2C3E50;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-bottom: 5px;
+
+}
+
+.plan{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+
+.plan-list{
+   padding-bottom: 20px;
+   margin: 5px;
+}
+
+.plan-list li{
+    line-height: 25px;
+    background-color: #e8e9ea;
+    color: #333;
+    text-align: center;
+    font-weight: 700;
+    padding: 15px;
+}
+
+ .plan-list .price{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #2cc76a;
+    color: #fff;
+    text-align: center;
+    line-height: 90px;
+    font-size: 1.1rem;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -50px;
+}
+
+.plan-list .plan-name{
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #fff;
+    background-color: #2C3E50;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.plan-list .recommended{
+    background-color: #f45c57;
+}
+
+.plan-list .plan-btn{
+    background-color: #2cc76a;
+    color: #fff;
+    height: 75px;
+    line-height: 40px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+#recommended{
+    background-color: #f45c57;
+}
+
+.plan-list .plan-btn:hover{
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+/*fim seção planos preços*/
+
+ 
+
+
 
 
 /* Media query */
@@ -196,7 +299,26 @@
 }
 
 /* Fim seção planos*/
+/*seção preços e planos*/
+.pricing-container h1{
+    font-size: 1.7rem;
+    margin-bottom: 5px;
+}
 
+.pricing-container p{
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+.plan{
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.plan-list .plan-name{
+    font-size: .9rem;
+  
+}
 }
 
 /* Large devices (desktops, 992px and up)*/
