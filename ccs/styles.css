@@ -122,7 +122,7 @@
     width: 100%;
     height: auto;
     padding: 5px;
-    position: absolute;
+    position: relative;
 }
 
 .pricing-container h1{
@@ -216,6 +216,72 @@
     font-weight: 700;
 }
 /*fim seção planos preços*/
+
+/*Seção dominio*/
+.domain-container{
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    position: absolute;
+    background-color: #2C3E50;
+    text-align: center;
+}
+
+.domain-container h2{
+    color: #fff;
+    font-size: 1.4rem;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.domain-container p{
+    color: #d5d5d5;
+    font-size: 1.1rem;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+
+.domain-form{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: block;
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+  
+}
+
+.domain-form input{
+   display: block;
+   position: relative;
+   margin-left: auto;
+   margin-right: auto;
+   border: none;
+   border-radius: 5px;
+}
+
+.domain-form input[type=text]{
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.domain-form input[type=submit]{
+    background-color: #2cc76a;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 1rem;
+}
+
+.domain-form input[type=submit]:hover{
+    cursor: pointer;
+    background-color: #fff;
+    color: #2cc76a;
+}
+/*fim seção dominio*/
 
  
 
@@ -319,10 +385,42 @@
     font-size: .9rem;
   
 }
+
+/*Seção dominio*/
+.domain-container{
+    height: 300px;
+    padding: 25px;
+   
+}
+
+.domain-container h2{
+    font-weight: 700;
+    font-size: 1.9rem;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.domain-container p{
+    font-size: 1.3rem;
+}
+
+.domain-form input[type=text]{
+    margin-bottom: 23px;
+    width: 60%;
+    padding: 12px;
+    font-size: 1.1rem;
+   
+}
+
+
 }
 
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
+    .domain-form input[type=text]{
+        text-align: start;
+    }
+    
 
 }
 
