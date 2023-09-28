@@ -222,7 +222,6 @@
     width: 100%;
     height: auto;
     padding: 5px;
-    position: absolute;
     background-color: #2C3E50;
     text-align: center;
 }
@@ -283,6 +282,81 @@
 }
 /*fim seção dominio*/
 
+/*Seção contato*/
+.contact-container{
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    text-align: center;
+    background-color: #e9ecf0;
+}
+
+.contact-container h2{
+    color:#2C3E50;
+    font-size: 1.4rem;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.contact-container p{
+    color: #2C3E50;
+    font-size: 1.1rem;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+
+.contact-form{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-form input,
+.contact-form textarea
+{
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    border-radius: 5px;
+ }
+
+ .contact-form textarea{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 150px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 1rem;
+}
+ 
+ .contact-form input[type=text]{
+     margin-bottom: 10px;
+     width: 100%;
+     padding: 12px;
+     font-size: 1rem;
+     text-align: center;
+ }
+ 
+ .contact-form input[type=submit]{
+     background-color: #2cc76a;
+     color: #fff;
+     padding: 15px 30px;
+     font-size: 1rem;
+     width: auto;
+ }
+ 
+ .contact-form input[type=submit]:hover{
+     cursor: pointer;
+     background-color: #fff;
+     color: #2cc76a;
+ }
  
 
 
@@ -411,6 +485,38 @@
     font-size: 1.1rem;
    
 }
+/*fim Seção dominio*/
+
+/*Seção contato*/
+.contact-container h2{
+  
+    font-size: 1.9rem;
+    margin-top: 40px;
+    margin-bottom: 10px;
+   
+}
+
+.contact-container p{
+    font-size: 1.3rem;
+}
+
+.contact-form input[type=text]{
+    margin-bottom: 23px;
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+   
+}
+
+.contact-form textarea{
+   
+    width: 478px;
+    height: 150px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 1.1rem;
+}
+/*fim seção contato*/
 
 
 }
